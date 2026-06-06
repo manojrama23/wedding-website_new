@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+@theme inline {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
