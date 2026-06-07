@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur border-b border-rose-100 shadow-sm">
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="font-serif text-rose-700 text-xl font-semibold tracking-wide">
-          💍 Our Wedding
+          💍 Maaya Wedding
         </Link>
         <div className="hidden md:flex gap-6 text-sm font-medium text-gray-600">
           {links.map((l) => (
