@@ -11,6 +11,7 @@ export async function POST(req: NextRequest) {
   response.cookies.set('wedding_auth', 'granted', {
     httpOnly: true,
     sameSite: 'lax',
+    secure: process.env.NODE_ENV === 'production', // HTTPS-only in production
     maxAge: 60 * 60 * 24 * 7, // 7 days
     path: '/',
   })
